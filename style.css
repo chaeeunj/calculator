@@ -1,0 +1,23 @@
+body {
+  background-color: silver;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  background-color: lightgreen;
+  width: 400px;
+  height: 500px;
+  align-items: center;
+
+}
+
+.calculate {
+  background-color: lemonchiffon;
+  border-radius: 4px;
+  width: 110.9px;
+  height: 40px;
+  margin-bottom: 5px;
+}
