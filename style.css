@@ -7,17 +7,24 @@ body {
 }
 
 .calculator {
+  
   background-color: lightgreen;
   width: 400px;
   height: 500px;
+
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
 
 }
 
 .calculate {
+  
   background-color: lemonchiffon;
   border-radius: 4px;
-  width: 110.9px;
-  height: 40px;
+  width: 70vh;
+  height: 20vh;
+  margin-top: 10px;
   margin-bottom: 5px;
 }
