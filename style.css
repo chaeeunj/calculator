@@ -7,8 +7,9 @@ body {
 }
 
 .calculator {
-  
+  margin-top: 100px;
   background-color: lightgreen;
+  border-radius: 10px;
   width: 400px;
   height: 500px;
 
@@ -20,11 +21,45 @@ body {
 }
 
 .calculate {
-  
   background-color: lemonchiffon;
-  border-radius: 4px;
-  width: 70vh;
-  height: 20vh;
+  border-radius: 10px;
+  width: 360px;
+  height: 110px;
   margin-top: 10px;
   margin-bottom: 5px;
+}
+
+.number {
+  margin-top: 15px;
+  
+}
+
+div > button {
+  width: 85px;
+  height: 55px;
+  border-radius: 6px;
+  border-color: grey;
+  box-shadow: none;
+  font-size: 20px;
+}
+
+.first {
+  margin-bottom: 8px;
+}
+
+.second {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.third {
+  margin-bottom: 8px;
+}
+
+.forth {
+  margin-bottom: 8px;
+}
+
+.last {
+  margin-bottom: 8px;
 }
